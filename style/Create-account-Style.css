@@ -1,0 +1,108 @@
+.menu {
+    padding-top: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.559);
+    font-weight: 400;
+    font-size: larger;
+}
+
+input {
+    color: rgb(3, 3, 3);
+    width: 200%;
+    height: 35px;
+}
+
+.insert-name {
+    display: flex;
+    border: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.468);
+
+}
+
+.insert-email {
+    display: flex;
+    border: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.468);
+    ;
+
+}
+
+.insert-password {
+    display: flex;
+    border: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.468);
+    ;
+
+}
+
+.confirm-password {
+    display: flex;
+    border: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.468);
+    ;
+
+}
+
+.icons {
+    display: flex;
+    padding-bottom: 6%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ic-google {
+    display: flex;
+    width: 40px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.ic-facebook {
+    display: flex;
+    width: 40px;
+    margin: 10px;
+}
+
+.ic-instagram {
+    display: flex;
+    width: 40px;
+
+    margin: 10px;
+}
+
+.create {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-create:hover {
+    background-color: rgb(51, 51, 108);
+}
+
+.btn-create {
+    border: none;
+    border-radius: 3px;
+    margin-top: 10%;
+    width: 150px;
+    height: 25px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: rgb(25, 25, 66);
+    color: aliceblue;
+}

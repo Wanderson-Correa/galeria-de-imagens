@@ -1,0 +1,61 @@
+.canvas {
+    gap: 5%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-content: center;
+    z-index: 0;
+
+}
+
+.no-photo-client {
+    display: flex;
+    width: 60%;
+    height: 400%;
+    background-color: rgba(255, 255, 255, 0.212);
+    padding-left: 20%;
+    padding-right: 20%;
+    z-index: 1;
+    border: solid rgba(255, 255, 255, 0.801);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nophoto-icon-client {
+    display: flex;
+}
+
+.porta-retrato-client {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    gap: 5%;
+    padding: 5% 10% 5% 10%;
+
+}
+
+.this-album-row {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.212);
+    position: relative;
+    width: 100%;
+    height: 150%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
+
+.left-arrow {
+    width: 15%;
+}
+
+.right-arrow {
+    width: 15%;
+    padding-left: 85%;
+}

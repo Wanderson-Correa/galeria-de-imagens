@@ -1,0 +1,73 @@
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.212);
+    padding-top: 5%;
+}
+
+.client {
+    display: flex;
+    font-size: 26px;
+    font-weight: 600;
+
+}
+
+.client-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jober-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.jober {
+    display: flex;
+    font-size: 26px;
+    font-weight: 600;
+
+
+}
+
+.client-img:hover {
+    background-color: rgba(255, 255, 255, 0.611);
+}
+
+.client-img {
+    display: flex;
+    width: 70%;
+    margin-left: 30px;
+    margin-left: 61px;
+    margin-right: -29px;
+    background-color: rgba(255, 255, 255, 0.212);
+
+}
+
+.jober-img:hover {
+    background-color: rgba(255, 255, 255, 0.611);
+}
+
+.jober-img {
+    display: flex;
+    width: 70%;
+    margin-left: 30px;
+    margin-left: 61px;
+    margin-right: -29px;
+    background-color: rgba(255, 255, 255, 0.212);
+}
+
+.box {
+    display: flex;
+}
